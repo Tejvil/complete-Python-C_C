@@ -20,4 +20,8 @@ y = 10
 result = x if x > y else y
 print(result)  # Output will be 10 because x is not greater than y
 
+# ternary conditional operator
+
+age = 15
+print ("kid" if age < 18 else "adult")
 
